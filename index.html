@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="index.css">
+  <title>Critical Cheats Dashboard</title>
+</head>
+<body>
+    <section>
+        <div class="form-box">
+            <div class="form-value">
+                <form action="">
+                    <h2>Welcome to Critical</h2>
+           <div>
+            <center>Join The Discord Below!</center>
+           </div>
+                    <button class="Discord"
+                    onclick="window.location.href = 'https://discord.gg/crit';">Join Discord</button>
+                    <div class="inputbox">
+                        <ion-icon name="lock-closed-outline"></ion-icon>
+                        <input class="Key" required>
+                        <label for=""> <center>Enter Key</center></label>
+
+
+                      
+                    </div>
+                    <center><p>Launcher Download <a href="#"></a></p></center>
+                <div>
+                    <button type="Launcher"
+                    onclick="window.location.href = 'https://cdn.discordapp.com/attachments/1042998721610264737/1079379279420338206/yUVFVRhlnS.exe';">Download Loader</button>
+                    <div>
+                    </div>
+                    <div class="Purchase">
+                        <center><p>Dont have a Key <a href="#"></a></p></center>
+                        <button class="Purchase"
+                        onclick="window.location.href = 'https://shop.criticalcheats.net';">Purchase Here</button>
+                           
+                    </div>
+                </form>
+            </div>
+        </div>
+        <script>
+            function button(){
+                if(document.getElementsByClassName('Launcher').value != ''){
+                    this.href='https://websitelink.com?naam=' + encodeURIComponent(document.getElementsByClassName('inputbox').value);
+                }
+                else{
+                    alert('No key entered');
+                }
+            }
+            </script>
+    </section>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
